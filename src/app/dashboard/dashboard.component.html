@@ -1,8 +1,64 @@
 <div class="container-fluid page">
   <div class="d-flex page__box p-3 mt-2">Dashboard</div>
   <div class="page__content shadow p-3 position-relative">
-    <div class="page__content-data position-absolute text-center">
-      Dashboard Content Goes Here
+    <mat-tree>
+      <mat-nested-tree-node>
+        parent node
+        <mat-nested-tree-node> -- child node1 </mat-nested-tree-node>
+        <mat-nested-tree-node> -- child node2 </mat-nested-tree-node>
+      </mat-nested-tree-node>
+   </mat-tree>
+   <ul id="myUL">
+    <li><span class="caret">{{machines[0].type}}</span>
+      <ul class="nested">
+        <li><span class="caret">{{machines[0].manufacturer[0].name}}</span>
+          <ul class="nested">
+            <li><span class="caret">{{machines[0].manufacturer[0].models[0].name}}</span>
+              <ul class="nested">
+                <li><div class="row">1. {{machines[0].manufacturer[0].models[0].videos[0]}}</div>
+                  <mat-card>
+                  
+                  <div class="row">
+                    <div class="col-md-6"> <mat-card-title></mat-card-title>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/K0Oy9KyIcrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  <div class="col-md-6">The Caterpillar Sixty was originally introduced for sale beginning in 1919 as the C. L. Best 60 Tracklayer, manufactured by the C. L. Best Tractor Company. The Best 60 was the most successful tractor in the Best model line.[2] After the 1925 merger of the C. L. </div>
+                  </div>
+                </mat-card></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <br>
+  <ul id="myUL">
+    <li><span class="caret">{{machines[0].type}}</span>
+      <ul class="nested">
+        <li><span class="caret">{{machines[0].manufacturer[0].name}}</span>
+          <ul class="nested">
+            <li><span class="caret">{{machines[0].manufacturer[0].models[0].name}}</span>
+              <ul class="nested">
+                <li><div class="row">1. {{machines[0].manufacturer[0].models[0].videos[0]}}</div>
+                  <mat-card>
+                  
+                  <div class="row">
+                    <div class="col-md-6"> <mat-card-title></mat-card-title>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/K0Oy9KyIcrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  <div class="col-md-6">The Caterpillar Sixty was originally introduced for sale beginning in 1919 as the C. L. Best 60 Tracklayer, manufactured by the C. L. Best Tractor Company. The Best 60 was the most successful tractor in the Best model line.[2] After the 1925 merger of the C. L. </div>
+                  </div>
+                </mat-card></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+    <div [ngStyle]="{'margin-top': 'auto'}" class="content page__content-data position-absolute text-center " style="margin-top: 0%;" >
+
     </div>
   </div>
 </div>
