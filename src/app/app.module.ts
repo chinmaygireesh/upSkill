@@ -22,6 +22,7 @@ import { StreamingPageComponent } from './streaming-page/streaming-page.componen
 import { SidenavRightComponent } from './sidenav-right/sidenav-right.component';
 import { StatusComponent } from './status/status.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { MainComponent } from './main/main.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +35,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
     SidenavRightComponent,
     StatusComponent,
     LoginPageComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
