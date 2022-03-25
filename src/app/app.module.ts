@@ -23,6 +23,8 @@ import { SidenavRightComponent } from './sidenav-right/sidenav-right.component';
 import { StatusComponent } from './status/status.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { MainComponent } from './main/main.component';
+import { FooterComponent } from './footer/footer.component';
+import { MybyteLandingPageComponent } from './mybyte-landing-page/mybyte-landing-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +38,8 @@ import { MainComponent } from './main/main.component';
     StatusComponent,
     LoginPageComponent,
     MainComponent,
+    FooterComponent,
+    MybyteLandingPageComponent,
   ],
   imports: [
     BrowserModule,

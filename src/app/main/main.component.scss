@@ -1,17 +1,18 @@
-:host {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-  
-  mat-drawer {
-    width: 260px;
-  }
-  mat-drawer-container {
-    height: 100%;
-  }
-  
-  mat-drawer {
-    background: #0f172a;
-  }
-  
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+}

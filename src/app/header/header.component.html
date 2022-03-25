@@ -1,35 +1,22 @@
-<!-- <mat-toolbar>
-  <mat-toolbar-row class="justify-content-between">
-    <button mat-icon-button (click)="toggleSidebar()">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <mat-form-field class="row mr-2 ml-auto example-full-width">
-      <input matInput type="search">
-    </mat-form-field>
-    <mat-icon aria-hidden="false" aria-label="Example home icon">search</mat-icon>
-    <div class="row mr-2 ml-auto">
-      <ul class="row m-0 align-items-center">
-        <li>
-          <button
-            mat-button
-            [matMenuTriggerFor]="menu"
-            class="user mt-2 d-flex align-items-center"
-          >
-            <img src="./assets/user.jpg" alt="" class="user-image mr-1 p-2" />
-
-            User Name
-            <mat-icon class="user-image-icon ml-1"
-              >keyboard_arrow_down</mat-icon
-            >
-          </button>
-          <mat-menu #menu="matMenu">
-            <button mat-menu-item>
-              <mat-icon>exit_to_app</mat-icon>
-              Logout
-            </button>
-          </mat-menu>
-        </li>
-      </ul>
-    </div>
-  </mat-toolbar-row>
-</mat-toolbar> -->
+<header id="header">	
+  <div class="row">
+      <div >
+          <form class="d-flex" style="    
+          margin-left: 20%;
+          margin-right: 20%;
+          margin-bottom: 10px;
+          margin-top: 10px;"> 
+              <input class="form-control mr-2 mx-10" type="search" placeholder="Search" aria-label="Search"> <button class="btn btn-outline-success" type="submit">Search</button> </form>
+      </div>
+      
+  </div>
+  <div class="row">
+      <nav class="links" style="--items: 4;">
+          <a href="#">For you</a>
+          <a href="#">Your org. content</a>
+          <a href="#">Instructure Led courses</a>
+          <a href="#">Mbytes</a>
+          <span class="line"></span>
+      </nav>
+  </div>
+  
