@@ -23,4 +23,49 @@
 //   align-self: center;
 // }
 .fcontainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-x: auto;
+}
+.abovepart {
+  flex: 2;
+  display: flex;
+}
+.belowpart {
+  flex: 1;
+  border: 2px solid black;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+}
+.left {
+  flex: 1;
+
+  display: flex;
+}
+.right {
+  flex: 1;
+  display: flex;
+}
+.wizard {
+  border: 2px solid black;
+  flex: 1;
+  margin: 5px;
+}
+.video {
+  flex: 1;
+  border: 2px solid black;
+  margin: 5px;
+  height: 50%;
+  align-items: center;
+}
+.videocard {
+  height: 20vh;
+  width: 40vw;
+  border: 2px solid;
+  margin-left: 5px;
+  min-width: 200px;
 }

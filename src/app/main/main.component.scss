@@ -28,12 +28,8 @@ body {
   flex-direction: column;
 }
 
-.maxHeight {
+.contentbody {
   flex: 1;
-  background: lightgreen;
-}
-
-.content div {
-  padding: 10px;
-  border-top: 3px solid #0f0f0f;
+  border: 2px solid black;
+  display: flex;
 }

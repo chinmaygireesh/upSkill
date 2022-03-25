@@ -1,16 +1,9 @@
-:host {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+* {
+  border: 1px solid red;
 }
-
-mat-drawer {
-  width: 260px;
+*::before {
+  border: 1px solid red;
 }
-mat-drawer-container {
-  height: 100%;
-}
-
-mat-drawer {
-  background: #0f172a;
+*::after {
+  border: 1px solid red;
 }
