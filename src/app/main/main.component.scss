@@ -16,3 +16,24 @@ body {
   height: 60px;
   line-height: 60px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.maxHeight {
+  flex: 1;
+  background: lightgreen;
+}
+
+.content div {
+  padding: 10px;
+  border-top: 3px solid #0f0f0f;
+}
