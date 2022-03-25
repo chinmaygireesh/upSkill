@@ -25,6 +25,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { MybyteLandingPageComponent } from './mybyte-landing-page/mybyte-landing-page.component';
+import { RecordScreenComponent } from './record-screen/record-screen.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +41,7 @@ import { MybyteLandingPageComponent } from './mybyte-landing-page/mybyte-landing
     MainComponent,
     FooterComponent,
     MybyteLandingPageComponent,
+    RecordScreenComponent,
   ],
   imports: [
     BrowserModule,
