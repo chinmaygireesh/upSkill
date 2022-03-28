@@ -1,0 +1,77 @@
+.otherVideos {
+  // border: 2px solid;
+  flex: 4;
+  display: flex;
+  overflow-x: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+.videocard {
+  height: 20vh;
+  width: 40vw;
+  border: 2px solid;
+  margin-left: 5px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+.manufacturers {
+  //border: 2px solid;
+  flex: 2;
+  display: flex;
+  overflow-x: auto;
+  // justify-content: center;
+  align-items: center;
+}
+.manufacturer {
+  height: 7vh;
+  width: 30vw;
+  border: 2px solid;
+  margin-left: 5px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.tags {
+  // border: 2px solid;
+  flex: 2;
+  display: flex;
+  overflow-x: auto;
+  //justify-content: center;
+  align-items: center;
+}
+.tag {
+  height: 7vh;
+  width: 30vw;
+  border: 1px solid #ced4da;
+  margin-left: 5px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 115px;
+}
+
+.search {
+  border: 2px solid;
+  flex: 1;
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.sarchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
