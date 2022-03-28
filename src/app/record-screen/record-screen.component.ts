@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , HostBinding, Host,} from '@angular/core';
 
 @Component({
   selector: 'app-record-screen',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./record-screen.component.scss']
 })
 export class RecordScreenComponent implements OnInit {
+  @HostBinding('class.app-body') appBody: Host = true;// to give the class while the combonent is loadded by routnig
 
   constructor() { }
 

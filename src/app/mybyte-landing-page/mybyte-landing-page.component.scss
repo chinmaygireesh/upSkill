@@ -20,3 +20,41 @@
     width: 50%;
   }
 }
+
+.icon {
+  // border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 10px;
+}
+.left {
+  // background-color: aqua;
+  // border: 2px solid black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f44336;
+}
+.right {
+  // background-color: bisque;
+  //border: 2px solid black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1a73e8;
+}
+.box {
+  display: flex;
+  flex: 1;
+}
+.appbody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-x: auto;
+}

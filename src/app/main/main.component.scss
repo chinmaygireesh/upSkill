@@ -8,15 +8,6 @@ body {
   margin-bottom: 60px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -28,14 +19,23 @@ body {
   flex-direction: column;
 }
 
-.contentbody {
-  flex: 1;
-  border: 2px solid black;
-  display: flex;
-}
 .app-body {
   display: flex;
   flex: 1;
   flex-direction: column;
   overflow-x: auto;
+}
+.contentbody {
+  flex: 1;
+  // border: 2px solid black;
+  display: flex;
+  margin-top: 5vh;
+}
+.footer {
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
