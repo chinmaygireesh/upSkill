@@ -54,6 +54,8 @@
   border: 2px solid black;
   flex: 1;
   margin: 5px;
+  overflow-y: auto;
+  max-height: 50vh;
 }
 .video {
   flex: 1;
@@ -61,6 +63,7 @@
   margin: 5px;
   height: 50%;
   align-items: center;
+  display: flex;
 }
 .videocard {
   height: 20vh;
@@ -68,4 +71,11 @@
   border: 2px solid;
   margin-left: 5px;
   min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.iframeVideo {
+  width: inherit;
 }
