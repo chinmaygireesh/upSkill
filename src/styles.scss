@@ -26,12 +26,6 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.links a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-}
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 

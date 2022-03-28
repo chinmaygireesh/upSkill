@@ -28,6 +28,7 @@ import { MybyteLandingPageComponent } from './mybyte-landing-page/mybyte-landing
 import { RecordScreenComponent } from './record-screen/record-screen.component';
 import { WizardComponent } from './wizard/wizard.component';
 import { OtherMbytesvideosComponent } from './other-mbytesvideos/other-mbytesvideos.component';
+import { SearchVideosComponent } from './search-videos/search-videos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,6 +47,7 @@ import { OtherMbytesvideosComponent } from './other-mbytesvideos/other-mbytesvid
     RecordScreenComponent,
     WizardComponent,
     OtherMbytesvideosComponent,
+    SearchVideosComponent,
   ],
   imports: [
     BrowserModule,
