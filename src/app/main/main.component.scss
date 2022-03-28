@@ -33,3 +33,9 @@ body {
   border: 2px solid black;
   display: flex;
 }
+.app-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-x: auto;
+}
