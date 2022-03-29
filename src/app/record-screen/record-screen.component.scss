@@ -27,10 +27,14 @@
   flex-direction: column;
   flex: 1;
   overflow-x: auto;
+  max-height: 70vh;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 .abovepart {
   flex: 5;
   display: flex;
+  flex-wrap: wrap;
 }
 .belowpart {
   flex: 4;
@@ -40,29 +44,68 @@
   align-items: center;
 }
 .left {
+  flex: 1;
   display: flex;
-  overflow-x: auto;
-  justify-content: flex-start;
+  // overflow-x: auto;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .right {
   flex: 1;
   display: flex;
 }
 .wizard {
-  border: 2px solid black;
+  //border: 2px solid black;
   flex: 1;
   margin: 5px;
   overflow-y: auto;
   max-height: 50vh;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .video {
   flex: 1;
-  // border: 2px solid black;
   margin: 5px;
-  height: 50%;
+  height: 100%;
   align-items: center;
+  justify-content: center;
   display: flex;
+  flex-direction: column;
+}
+.yourVideo {
+  // height: 15vh;
+  color: #1a73e8;
+  // flex: 1;
+  border: 2px solid;
+  margin-left: 5px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.iframeVideo {
+  width: inherit;
+}
+.title {
+  flex: none;
+}
+.morevideos {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.otherVideos {
+  // border: 2px solid;
+  flex: 4;
+  display: flex;
+  overflow-x: auto;
+  justify-content: flex-start;
+  align-items: center;
 }
 .videocard {
   color: #1a73e8;
@@ -78,20 +121,18 @@
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.yourVideo {
-  height: 15vh;
-  color: #1a73e8;
-  flex: 1;
-  border: 2px solid;
-  margin-left: 5px;
-  min-width: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
-.iframeVideo {
-  width: inherit;
+
+*::-webkit-scrollbar-track {
+  background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #1a73e875;
+  width: 10px;
+  ///border: 5px s;
+  // border-radius: 20px;
 }
