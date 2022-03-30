@@ -10,10 +10,10 @@ import { SearchVideosComponent } from './search-videos/search-videos.component';
 import { StatusComponent } from './status/status.component';
 import { StreamingPageComponent } from './streaming-page/streaming-page.component';
 
-const routes: Routes = [ 
-  { path:'', component:LoginPageComponent},
-  { 
-    path: 'main', component:MainComponent,
+const routes: Routes = [
+  { path:'login', component:LoginPageComponent},
+  {
+    path: '', component:MainComponent,
     canActivateChild: [],
     children: [
       { path: '', component: MybyteLandingPageComponent },
