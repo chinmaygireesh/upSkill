@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ngcc",
-    "buildProd": "ng build --base-href=/mbyte/"
+    "buildProd": "ng build --base-href=/upskill/"
   },
   "private": true,
   "dependencies": {
